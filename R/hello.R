@@ -121,3 +121,16 @@ has_root <- function(ntip) {
 generate_Fmat <- function(ntip) {
   return(gen_Fmat(rcoal(ntip)))
 }
+
+#' New function
+#'
+#' This is an easy new function
+#'
+#' @param arg1 An input integer
+#' @return arg1 + 1
+#' @export
+add1 <- function(arg1) {
+  return(arg1 + 1)
+}
+
+
